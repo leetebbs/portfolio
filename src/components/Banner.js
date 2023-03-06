@@ -16,7 +16,7 @@ const Banner = () => {
         <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12">
           <div className="flex-1 text-center font-secondary lg:text-left">
             <motion.h1
-              variants={fadeIn("up", 0.3)}
+              variants={fadeIn("up", 0.2)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
@@ -25,10 +25,10 @@ const Banner = () => {
               LEE <span>TEBBS</span>
             </motion.h1>
             <motion.div
-                          variants={fadeIn("up", 0.3)}
-                          initial="hidden"
-                          whileInView={"show"}
-                          viewport={{ once: false, amount: 0.7 }}
+              variants={fadeIn("up", 0.4)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
               className="mb-6 text-[25px] lg:text-[45px] font-secondary
     font-semibold uppercase leading-[1]"
             >
@@ -48,21 +48,39 @@ const Banner = () => {
                 repeat={Infinity}
               />
             </motion.div>
-            <p className="mb-8 max-w-lg mx-auto lg:mx-0">
+            <motion.p
+              variants={fadeIn("up", 0.5)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className="mb-8 max-w-lg mx-auto lg:mx-0"
+            >
               Unlock the full potential of blockchain technology with a skilled
               and experienced web3 blockchain engineer. From smart contract
               development to decentralized app creation, I can help bring your
               blockchain project to life. Hire me as your freelance web3
               blockchain engineer and let's build a decentralized future
               together.
-            </p>
-            <div className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
+            </motion.p>
+            <motion.div
+              variants={fadeIn("up", 0.8)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
+            >
               <button className="btn btn-lg">Contact me</button>
               <a href="#" className="text-gradient btn-link">
                 My Portfolio
               </a>
-            </div>
-            <div className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0">
+            </motion.div>
+            <motion.div
+              variants={fadeIn("up", 0.9)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0"
+            >
               <a href="#">
                 <FaGithub />
               </a>
@@ -75,11 +93,17 @@ const Banner = () => {
               <a href="#">
                 <TbBrandFiverr />
               </a>
-            </div>
+            </motion.div>
           </div>
-          <div className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px] mx-auto">
+          <motion.div
+            variants={fadeIn("down", 0.5)}
+            initial="hidden"
+            whileInView={"show"}
+            // viewport={{ once: false, amount: 0.7 }}
+            className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px] mx-auto"
+          >
             <img src={image} alt="" />
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>
