@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../assets/tebbo.png";
+import image from "../assets/tebbo2.png";
 import { FaGithub, FaYoutube, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { TbBrandFiverr } from "react-icons/tb";
 import { TypeAnimation } from "react-type-animation";
