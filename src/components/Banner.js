@@ -58,7 +58,7 @@ const Banner = () => {
               Unlock the full potential of blockchain technology with a skilled
               and experienced web3 blockchain engineer. From smart contract
               development to decentralized app creation, I can help bring your
-              blockchain project to life. Hire me as your freelance web3
+              blockchain project to life.<br/> Hire me as your freelance web3
               blockchain engineer and let's build a decentralized future
               together.
             </motion.p>
