@@ -58,7 +58,8 @@ const Banner = () => {
               Unlock the full potential of blockchain technology with a skilled
               and experienced web3 blockchain engineer. From smart contract
               development to decentralized app creation, I can help bring your
-              blockchain project to life.<br/> Hire me as your freelance web3
+              blockchain project to life.<br/> 
+              Hire me as your freelance web3
               blockchain engineer and let's build a decentralized future
               together.
             </motion.p>
@@ -79,7 +80,7 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0"
+              className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0 "
             >
               <a href="#">
                 <FaGithub />
