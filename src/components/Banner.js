@@ -82,16 +82,16 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0 "
             >
-              <a href="#">
+              <a href="https://github.com/leetebbs">
                 <FaGithub />
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/tebbo-/">
                 <FaLinkedin />
               </a>
-              <a href="#">
+              <a href="https://twitter.com/LTebbs2">
                 <FaTwitter />
               </a>
-              <a href="#">
+              <a href="https://www.fiverr.com/leetebbs/be-your-expert-web3-developer-for-your-blockchain-projects">
                 <TbBrandFiverr />
               </a>
             </motion.div>
