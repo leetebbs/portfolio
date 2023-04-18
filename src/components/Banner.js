@@ -5,6 +5,7 @@ import { TbBrandFiverr } from "react-icons/tb";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
+import { Link } from "react-scroll";
 
 const Banner = () => {
   return (
@@ -58,10 +59,10 @@ const Banner = () => {
               Unlock the full potential of blockchain technology with a skilled
               and experienced web3 blockchain engineer. From smart contract
               development to decentralized app creation, I can help bring your
-              blockchain project to life.<br/> 
-              Hire me as your freelance web3
-              blockchain engineer and let's build a decentralized future
-              together.
+              blockchain project to life.
+              <br />
+              Hire me as your freelance web3 blockchain engineer and let's build
+              a decentralized future together.
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.8)}
@@ -70,10 +71,12 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
-              <button className="btn btn-lg">Contact me</button>
-              <a href="#" className="text-gradient btn-link">
+              <Link to="contact" smooth={true} spy={true}>
+                <button className="btn btn-lg">Contact me</button>
+              </Link>
+              <Link to="work" smooth={true} spy={true}><a href="#" className="text-gradient btn-link">
                 My Portfolio
-              </a>
+              </a></Link>
             </motion.div>
             <motion.div
               variants={fadeIn("up", 0.9)}
