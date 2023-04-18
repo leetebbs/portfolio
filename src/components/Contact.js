@@ -1,8 +1,30 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
-
+import emailjs from '@emailjs/browser';
 const Contact = () => {
+
+  const send = (e) => {
+    e.preventDefault();
+    const name = document.getElementById("from_name").value;
+    const message = document.getElementById("message").value;
+    const email = document.getElementById("email").value;
+    var templateParams = {
+      to_name: "tebbo",
+      from_name: name,
+      message: message,
+      reply_to: email,
+  };
+    emailjs.send("service_4nxmolf","template_ik1wrs9", templateParams, "-t6F1GeYkHc9EtVgd")
+      .then((result) => {
+        console.log(result.text);
+        if(result.text === "OK"){
+          alert("Message Sent");
+        }
+    }, (error) => {
+        console.log(error.text);
+    });;
+  }
   return (
     <section className="py-16 lg:section" id="contact">
       <div className="container mx-auto">
@@ -27,22 +49,26 @@ const Contact = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.3 }}
+          onSubmit={send}
           className="flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start">
             <input
+            id= "from_name"
               className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all"
               type="text"
               placeholder="Your Name"
             />
             <input
+            id= "email"
               className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all"
               type="text"
               placeholder="Your Email"
             />
             <textarea
+            id= "message"
               className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none mb-12"
               placeholder="Your Message"
             ></textarea>
-            <button className="btn btn-lg">Send Message</button>
+            <button className="btn btn-lg" type="submit" value="Send">Send Message</button>
           </motion.form>
         </div>
       </div>
