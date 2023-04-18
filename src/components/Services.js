@@ -8,28 +8,28 @@ const services = [
     id: 1,
     name: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, eaque.",
+      "Responsive websites built in react from your designs.",
     link: "Learn More",
   },
   {
     id: 2,
-    name: "App Development",
+    name: "Dapp Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, eaque.",
+      "Decentralised Application development for any EVM chain.",
     link: "Learn More",
   },
   {
     id: 3,
     name: "Smart Contract Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, eaque.",
+      "NFT, ERC20, Escrow, MultiSig Wallets, Custom Solidity Contracts.",
     link: "Learn More",
   },
   {
     id: 4,
-    name: "Digital Marketing",
+    name: "Tech Stack",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, eaque.",
+      "React, Solidity, Ethers, Web3, HTML, CSS, Javascript, GraphQL",
     link: "Learn More",
   },
 ];
