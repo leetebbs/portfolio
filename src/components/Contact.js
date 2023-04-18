@@ -1,9 +1,9 @@
-import React from "react";
+import React, {useState} from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import emailjs from '@emailjs/browser';
 const Contact = () => {
-
+  const [sent,setSent] = useState(false);
   const send = (e) => {
     e.preventDefault();
     const name = document.getElementById("from_name").value;
@@ -19,7 +19,7 @@ const Contact = () => {
       .then((result) => {
         console.log(result.text);
         if(result.text === "OK"){
-          alert("Message Sent");
+          setSent(true);
         }
     }, (error) => {
         console.log(error.text);
@@ -69,6 +69,9 @@ const Contact = () => {
               placeholder="Your Message"
             ></textarea>
             <button className="btn btn-lg" type="submit" value="Send">Send Message</button>
+            {sent && (
+              <div className="mb-[-30px]"><h4>Thankyou for your message</h4></div>
+            )}
           </motion.form>
         </div>
       </div>
