@@ -2,6 +2,7 @@ import React from "react";
 import { BsArrowUpRight } from "react-icons/bs";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
+import { Outlet, Link } from "react-router-dom";
 
 const services = [
   {
@@ -10,6 +11,7 @@ const services = [
     description:
       "Responsive websites built in react from your designs.",
     link: "Learn More",
+    url: "development",
   },
   {
     id: 2,
@@ -17,6 +19,7 @@ const services = [
     description:
       "Decentralised Application development for any EVM chain.",
     link: "Learn More",
+    url: "https://github.com/leetebbs/",
   },
   {
     id: 3,
@@ -24,6 +27,7 @@ const services = [
     description:
       "NFT, ERC20, Escrow, MultiSig Wallets, Custom Solidity Contracts.",
     link: "Learn More",
+    url: "https://github.com/leetebbs/",
   },
   {
     id: 4,
@@ -31,6 +35,7 @@ const services = [
     description:
       "React, Solidity, Ethers, Web3, HTML, CSS, Javascript, GraphQL",
     link: "Learn More",
+    url: "https://github.com/leetebbs/",
   },
 ];
 
@@ -50,7 +55,10 @@ const Services = () => {
             <h3 className="h3 max-w-[445px] mb-16">
               I am a Freelance Web3 Developer with over 3 years of experience.
             </h3>
+            {/* <Link to="/development"> */}
             <button className="btn btn-sm">See my work</button>
+            {/* </Link>
+            <Outlet /> */}
           </motion.div>
           <motion.div
             variants={fadeIn("left", 0.5)}
@@ -61,7 +69,7 @@ const Services = () => {
           >
             <div>
               {services.map((service, index) => {
-                const { name, description, link } = service;
+                const { name, description, link, url } = service;
                 return (
                   <div
                     className="border-b border-white/20 h-[146px] mb-[38px] flex"
@@ -77,12 +85,12 @@ const Services = () => {
                     </div>
                     <div className="flex flex-col flex-1 items-end">
                       <a
-                        href="#"
+                        href={url}
                         className="btn w-9 h-9 mb-[42px] flex justify-center items-center"
                       >
                         <BsArrowUpRight />
                       </a>
-                      <a href="#" className="text-gradient text-sm">
+                      <a href={url} className="text-gradient text-sm">
                         {link}
                       </a>
                     </div>

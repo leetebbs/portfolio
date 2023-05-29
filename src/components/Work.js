@@ -28,7 +28,7 @@ const Work = () => {
               </p>
               <button className="btn btn-sm">View all projects</button>
             </div>
-            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
+            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl mt-[55px]">
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               <img
                 className="group-hover:scale-125 transition-all duration-500"
@@ -41,6 +41,10 @@ const Work = () => {
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
                 <span className="text-3xl text-white">Realprop.io </span>
               </div>
+            </div>
+            <div className="flex gap-20 justify-center mt-[-40px]">
+            <button className="btn btn-sm"><a href="https://github.com/Tebbo-Web-Devs/REALPROP">Code</a></button>
+            <button className="btn btn-sm"><a href="https://www.realprop.io/en">Live site</a></button>
             </div>
           </motion.div>
           <motion.div
@@ -64,6 +68,10 @@ const Work = () => {
                 <span className="text-3xl text-white">Ethereum Block Explorer. </span>
               </div>
             </div>
+            <div className="flex gap-20 justify-center ">
+            <button className="btn btn-sm"><a href="https://github.com/leetebbs/Block-Explorer">Code</a></button>
+            <button className="btn btn-sm"><a href="https://block-explorer-gamma.vercel.app/">Live site</a></button>
+            </div>
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               <img
@@ -77,6 +85,10 @@ const Work = () => {
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
                 <span className="text-3xl text-white">BADCR</span>
               </div>
+            </div>
+            <div className="flex gap-20 justify-center ">
+            <button className="btn btn-sm"><a href="https://github.com/leetebbs/BADCR">Code</a></button>
+            <button className="btn btn-sm"><a href="https://badcr.netlify.app/">Live site</a></button>
             </div>
           </motion.div>
         </div>
