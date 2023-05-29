@@ -9,7 +9,7 @@ const services = [
     id: 1,
     name: "Web Development",
     description:
-      "Responsive websites built in react from your designs.",
+      "Responsive websites built in react / next js from your designs.",
     link: "Learn More",
     url: "development",
   },
@@ -56,7 +56,7 @@ const Services = () => {
               I am a Freelance Web3 Developer with over 3 years of experience.
             </h3>
             {/* <Link to="/development"> */}
-            <button className="btn btn-sm">See my work</button>
+            {/* <button className="btn btn-sm">See my work</button> */}
             {/* </Link>
             <Outlet /> */}
           </motion.div>
@@ -83,7 +83,7 @@ const Services = () => {
                         {description}
                       </p>
                     </div>
-                    <div className="flex flex-col flex-1 items-end">
+                    {/* <div className="flex flex-col flex-1 items-end">
                       <a
                         href={url}
                         className="btn w-9 h-9 mb-[42px] flex justify-center items-center"
@@ -93,7 +93,7 @@ const Services = () => {
                       <a href={url} className="text-gradient text-sm">
                         {link}
                       </a>
-                    </div>
+                    </div> */}
                   </div>
                 );
               })}
