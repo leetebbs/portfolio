@@ -25,7 +25,7 @@ const services = [
     id: 3,
     name: "Smart Contract Development",
     description:
-      "NFT, ERC20, Escrow, MultiSig Wallets, Custom Solidity Contracts.",
+      "ERC721, ERC1155, ERC404, ERC20, Escrow, MultiSig Wallets, Custom Solidity Contracts, Chainlink Smart Contracts.",
     link: "Learn More",
     url: "https://github.com/leetebbs/",
   },

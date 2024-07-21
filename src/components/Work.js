@@ -85,7 +85,7 @@ const Work = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1 flex flex-col gap-y-10  lg:gap-y-2"
           >
-            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
+            {/* <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               <img
                 className="group-hover:scale-125 transition-all duration-500"
@@ -108,7 +108,7 @@ const Work = () => {
               <button className="btn btn-sm">
                 <a href="https://block-explorer-gamma.vercel.app/">Live site</a>
               </button>
-            </div>
+            </div> */}
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               <img

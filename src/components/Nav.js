@@ -1,6 +1,7 @@
 /* eslint-disable no-unreachable */
 import React from "react";
 import { BiHomeAlt, BiUser } from "react-icons/bi";
+import { GiAchievement } from "react-icons/gi";
 import {
   BsClipboardData,
   BsBriefcase,
@@ -45,6 +46,15 @@ const Nav = () => {
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
           >
             <BsClipboardData />
+          </Link>
+          <Link
+            to="acheivements"
+            activeClass="active"
+            smooth={true}
+            spy={true}
+            className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
+          >
+            <GiAchievement />
           </Link>
           <Link
             to="work"
