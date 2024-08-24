@@ -49,9 +49,9 @@ const Work = () => {
               <button className="btn btn-sm">
                 <a href="https://github.com/Tebbo-Web-Devs/REALPROP">Code</a>
               </button>
-              <button className="btn btn-sm">
+              {/* <button className="btn btn-sm">
                 <a href="https://www.realprop.io/en">Live site</a>
-              </button>
+              </button> */}
             </div>
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl mt-[55px]">
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
