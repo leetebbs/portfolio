@@ -14,6 +14,7 @@ import netflix from "../assets/achievments/netflix.gif";
 import metabuilder from "../assets/achievments/metabuilder.gif";
 import angrybirds from "../assets/achievments/angrybirds.gif";
 import senior from "../assets/achievments/learnweb3Senior.png";
+import chainlink_ccip from "../assets/achievments/chainlink_ccip.gif";
 
 const services = [
   {
@@ -126,6 +127,17 @@ const Acheivements = () => {
                 <img
                   className="group-hover:scale-125 transition-all duration-500 width-[150px] h-[150px] lg:w-[150px] lg:h-[150px] mb-12"
                   src={ethonline}
+                  alt=""
+                />
+              </a>
+              <a
+                href="https://collectors.poap.xyz/token/7202859"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  className="group-hover:scale-125 transition-all duration-500 width-[150px] h-[150px] lg:w-[150px] lg:h-[150px] mb-12"
+                  src={chainlink_ccip}
                   alt=""
                 />
               </a>
