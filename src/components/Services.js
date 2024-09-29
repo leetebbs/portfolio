@@ -53,7 +53,7 @@ const Services = () => {
           >
             <h2 className="h2 text-accent mb-6">What I do.</h2>
             <h3 className="h3 max-w-[445px] mb-16">
-              I am a Freelance Web3 Developer with over 3 years of experience.
+              I am a Freelance Web3 Developer with over 4 years of experience.
             </h3>
             {/* <Link to="/development"> */}
             {/* <button className="btn btn-sm">See my work</button> */}
