@@ -61,8 +61,8 @@ const Banner = () => {
               development to decentralized app creation, I can help bring your
               web3 project to life.
               <br />
-              Hire me as your freelance web3 blockchain developer and let's build
-              a decentralized future together.
+              {/* Hire me as your freelance web3 blockchain developer and let's build
+              a decentralized future together. */}
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.8)}

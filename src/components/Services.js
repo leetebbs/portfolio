@@ -25,7 +25,7 @@ const services = [
     id: 3,
     name: "Smart Contract Development",
     description:
-      "ERC721, ERC1155, ERC404, ERC20, Escrow, MultiSig Wallets, Custom Solidity Contracts, Chainlink Smart Contracts.",
+      "ERC721, ERC1155, ERC404, ERC20, Escrow, MultiSig Wallets, Custom Solidity Contracts, Chainlink CCIP, Chainlink Smart Contracts.",
     link: "Learn More",
     url: "https://github.com/leetebbs/",
   },
@@ -33,7 +33,7 @@ const services = [
     id: 4,
     name: "Tech Stack",
     description:
-      "React, Solidity, Ethers, Web3, HTML, CSS, Javascript, GraphQL",
+      "React, Solidity, Ethers, Web3, HTML, CSS, Javascript, GraphQL, Chainlink",
     link: "Learn More",
     url: "https://github.com/leetebbs/",
   },
