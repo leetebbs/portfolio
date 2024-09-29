@@ -69,7 +69,7 @@ const Acheivements = () => {
           >
             <h2 className="h2 text-accent mb-6">Achievements.</h2>
             <h3 className="h3 max-w-[445px] mb-16">NFT's and POAP's.</h3>
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-x-6 lg:gap-x-1 mb-12">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-x-6 lg:gap-x-1 mb-12">
               <a
                 href="https://collectors.poap.xyz/token/7014298"
                 target="_blank"
