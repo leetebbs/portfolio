@@ -7,6 +7,7 @@ import Img3 from "../assets/portfolio-img5.png";
 import Img4 from "../assets/realprop.png";
 import Img5 from "../assets/portfolio-img4.png";
 import Img6 from "../assets/logoAlianza.png";
+import Img7 from "../assets/portfolio-img6.png";
 
 const Work = () => {
   return (
@@ -129,6 +130,28 @@ const Work = () => {
               </button>
               <button className="btn btn-sm">
                 <a href="https://badcr.netlify.app/">Live site</a>
+              </button>
+            </div>
+            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
+              <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+              <img
+                className="group-hover:scale-125 transition-all duration-500"
+                src={Img7}
+                alt=""
+              />
+              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+                <span className="text-gradient">MultiSig Wallets</span>
+              </div>
+              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+                <span className="text-3xl text-white">MultiVault</span>
+              </div>
+            </div>
+            <div className="flex gap-20 justify-center ">
+              <button className="btn btn-sm">
+                <a href="https://github.com/leetebbs/multisig-wallets">Code</a>
+              </button>
+              <button className="btn btn-sm">
+                <a href="https://multisig-wallets.vercel.app/">Live site</a>
               </button>
             </div>
           </motion.div>
