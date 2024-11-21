@@ -10,29 +10,26 @@ import Contact from './components/Contact';
 import Development from './components/Development';
 import Acheivements from './components/Achievements.js';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Multisig from "./components/projects/mutlisig.js";
 
 const App = () => {
   return (
-    <>
-    <div className='bg-black overflow-hidden'>
-    {/* <div className='bg-site bg-no-repeat bg-cover overflow-hidden'> */}
-      <Header />
-      <Banner />
-      <Nav />
-      <About />
-      <Services />
-      <Acheivements />
-      <Work />
-      <Contact />
-      <Development />
-      {/* <div className='h-[4000px]'></div> */}
-    </div>
-        <BrowserRouter>
-        <Routes>
-        <Route to="/development" element={<Development />} />
-        </Routes>
-    </BrowserRouter>  
-    </>
+    <BrowserRouter>
+      <div className='bg-black overflow-hidden'>
+        <Header />
+        <Banner />
+        <Nav />
+        <About />
+        <Services />
+        <Acheivements />
+        <Work />
+        <Contact />
+      </div>
+      <Routes>
+        <Route path="/development" element={<Development />} />
+        <Route path="/multisig" element={<Multisig />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 

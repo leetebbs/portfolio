@@ -15,7 +15,7 @@ import metabuilder from "../assets/achievments/metabuilder.gif";
 import angrybirds from "../assets/achievments/angrybirds.gif";
 import senior from "../assets/achievments/learnweb3Senior.png";
 import chainlink_ccip from "../assets/achievments/chainlink_ccip.gif";
-
+import chainlink_rwa from "../assets/achievments/chainlink_rwa.gif";
 const services = [
   {
     id: 1,
@@ -70,76 +70,85 @@ const Acheivements = () => {
             <h2 className="h2 text-accent mb-6">Achievements.</h2>
             <h3 className="h3 max-w-[445px] mb-16">NFT's and POAP's.</h3>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-x-6 lg:gap-x-1 mb-12">
-              <a
-                href="https://collectors.poap.xyz/token/7014298"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="https://collectors.poap.xyz/token/7014298" target="_blank" rel="noreferrer" className="relative group">
                 <img
                   className="group-hover:scale-125 transition-all duration-500 width-[150px] h-[150px] lg:w-[150px] lg:h-[150px] mb-12"
                   src={chainlink}
                   alt=""
                 />
-                
-
+                <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 hidden group-hover:block bg-black text-white text-xs rounded py-1 px-2">
+                Chainlink Bootcamp 2024 - Certificate of Completion
+                </div>
               </a>
-              <a href="https://collectors.poap.xyz/token/6957102" target="_blank" rel="noreferrer">
-              <img
-                className="group-hover:scale-125 transition-all duration-500 width-[150px] h-[150px] lg:w-[150px] lg:h-[150px] mb-12"
-                src={constellation}
-                alt=""
-              />
+              <a href="https://collectors.poap.xyz/token/6957102" target="_blank" rel="noreferrer" className="relative group">
+                <img
+                  className="group-hover:scale-125 transition-all duration-500 width-[150px] h-[150px] lg:w-[150px] lg:h-[150px] mb-12"
+                  src={constellation}
+                  alt=""
+                />
+                <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 hidden group-hover:block bg-black text-white text-xs rounded py-1 px-2">
+                Constellation: A Chainlink Hackathon
+                </div>
               </a>
-              <a
-                href="https://collectors.poap.xyz/token/6330506"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="https://collectors.poap.xyz/token/6330506" target="_blank" rel="noreferrer" className="relative group">
                 <img
                   className="group-hover:scale-125 transition-all duration-500 width-[150px] h-[150px] lg:w-[150px] lg:h-[150px] mb-12"
                   src={lighthouse}
                   alt=""
                 />
+                <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 hidden group-hover:block bg-black text-white text-xs rounded py-1 px-2">
+                Participating in Filecoin SpaceWarp Hackathon & Using Lighthouse 
+                </div>
               </a>
-              <a
-                href="https://collectors.poap.xyz/token/6317793"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="https://collectors.poap.xyz/token/6317793" target="_blank" rel="noreferrer" className="relative group">
                 <img
                   className="group-hover:scale-125 transition-all duration-500 width-[150px] h-[150px] lg:w-[150px] lg:h-[150px] mb-12"
                   src={spacewarp}
                   alt=""
                 />
+                <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 hidden group-hover:block bg-black text-white text-xs rounded py-1 px-2">
+                FVM Space Warp 2023 Staked Hacker
+                </div>
               </a>
-              <a href="https://collectors.poap.xyz/token/5929798"  target="_blank" rel="noreferrer">
-              <img
-                className="group-hover:scale-125 transition-all duration-500 width-[150px] h-[150px] lg:w-[150px] lg:h-[150px] mb-12"
-                src={filecoin}
-                alt=""
-              />
+              <a href="https://collectors.poap.xyz/token/5929798" target="_blank" rel="noreferrer" className="relative group">
+                <img
+                  className="group-hover:scale-125 transition-all duration-500 width-[150px] h-[150px] lg:w-[150px] lg:h-[150px] mb-12"
+                  src={filecoin}
+                  alt=""
+                />
+                <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 hidden group-hover:block bg-black text-white text-xs rounded py-1 px-2">
+                Hack FEVM 2022 Staked Hacker
+                </div>
               </a>
-              <a
-                href="https://collectors.poap.xyz/token/5797358"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="https://collectors.poap.xyz/token/5797358" target="_blank" rel="noreferrer" className="relative group">
                 <img
                   className="group-hover:scale-125 transition-all duration-500 width-[150px] h-[150px] lg:w-[150px] lg:h-[150px] mb-12"
                   src={ethonline}
                   alt=""
                 />
+                <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 hidden group-hover:block bg-black text-white text-xs rounded py-1 px-2">
+                ETHOnline 2022 Staked Hacker
+                </div>
               </a>
-              <a
-                href="https://collectors.poap.xyz/token/7202859"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="https://collectors.poap.xyz/token/7202859" target="_blank" rel="noreferrer" className="relative group">
                 <img
                   className="group-hover:scale-125 transition-all duration-500 width-[150px] h-[150px] lg:w-[150px] lg:h-[150px] mb-12"
                   src={chainlink_ccip}
                   alt=""
                 />
+                <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 hidden group-hover:block bg-black text-white text-xs rounded py-1 px-2">
+                Chainlink CCIP Bootcamp
+                </div>
+              </a>
+              <a href="https://collectors.poap.xyz/token/7250733" target="_blank" rel="noreferrer" className="relative group">
+                <img
+                  className="group-hover:scale-125 transition-all duration-500 width-[150px] h-[150px] lg:w-[150px] lg:h-[150px] mb-12"
+                  src={chainlink_rwa}
+                  alt=""
+                />
+                <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 hidden group-hover:block bg-black text-white text-xs rounded py-1 px-2">
+                  Chainlink Tokenized RWA Bootcamp
+                </div>
               </a>
             </div>
 
