@@ -51,7 +51,7 @@ const Services = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0"
           >
-            <h2 className="h2 text-accent mb-6">What I do.</h2>
+            <h2 className="h2 text-accent mb-6 mt-6">What I do.</h2>
             <h3 className="h3 max-w-[445px] mb-16">
               I am a Freelance Web3 Developer with over 4 years of experience.
             </h3>
