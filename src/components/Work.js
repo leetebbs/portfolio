@@ -6,7 +6,7 @@ import Img2 from "../assets/portfolio-img2.png";
 import Img3 from "../assets/portfolio-img5.png";
 import Img4 from "../assets/realprop.png";
 import Img5 from "../assets/portfolio-img4.png";
-import Img6 from "../assets/logoAlianza.png";
+import Img6 from "../assets/randomVRF.png";
 import Img7 from "../assets/portfolio-img6.png";
 
 const Work = () => {
@@ -63,19 +63,19 @@ const Work = () => {
               />
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
                 <span className="text-gradient">
-                  Chainlink CCIP Hackathon Entry
+                  OnChain Random Number Generation
                 </span>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Alianza</span>
+                <span className="text-3xl text-white">RandomizeX</span>
               </div>
             </div>
             <div className="flex gap-20 justify-center mt-[-40px]">
               <button className="btn btn-sm">
-                <a href="https://github.com/leetebbs/Alianza">Code</a>
+                <a href="https://github.com/leetebbs/simple_VRF">Code</a>
               </button>
               <button className="btn btn-sm">
-                <a href="https://allianz-teal.vercel.app/">Live site</a>
+                <a href="https://simple-vrf-y1jv.vercel.app/">Live site</a>
               </button>
             </div>
           </motion.div>
