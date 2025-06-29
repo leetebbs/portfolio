@@ -8,6 +8,7 @@ import Img4 from "../assets/realprop.png";
 import Img5 from "../assets/portfolio-img4.png";
 import Img6 from "../assets/randomVRF.png";
 import Img7 from "../assets/portfolio-img6.png";
+import Img8 from "../assets/nolo.PNG";
 
 const Work = () => {
   return (
@@ -152,6 +153,28 @@ const Work = () => {
               </button>
               <button className="btn btn-sm">
                 <a href="https://multisig-wallets.vercel.app/">Live site</a>
+              </button>
+            </div>
+            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl lg:mt-[90px]">
+              <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+              <img
+                className="group-hover:scale-125 transition-all duration-500"
+                src={Img8}
+                alt=""
+              />
+              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+                <span className="text-gradient">Yield Farminig Lottery</span>
+              </div>
+              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+                <span className="text-3xl text-white">NoLo Lotto</span>
+              </div>
+            </div>
+            <div className="flex gap-20 justify-center ">
+              <button className="btn btn-sm">
+                <a href="https://github.com/leetebbs/No-Loss-Yield-Lottery">Code</a>
+              </button>
+              <button className="btn btn-sm">
+                <a href="https://no-loss-yield-lottery-mu.vercel.app/">Live site</a>
               </button>
             </div>
           </motion.div>
