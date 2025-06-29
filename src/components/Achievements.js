@@ -16,6 +16,7 @@ import angrybirds from "../assets/achievments/angrybirds.gif";
 import senior from "../assets/achievments/learnweb3Senior.png";
 import chainlink_ccip from "../assets/achievments/chainlink_ccip.gif";
 import chainlink_rwa from "../assets/achievments/chainlink_rwa.gif";
+import alchemy from "../assets/certificate.png";
 const services = [
   {
     id: 1,
@@ -156,6 +157,16 @@ const Acheivements = () => {
             {/* <button className="btn btn-sm">See my work</button> */}
             {/* </Link>
             <Outlet /> */}
+            <div className="relative group">
+                  <img
+                  className="group-hover:scale-125 transition-all duration-500 width-[250px] h-[150px] lg:w-[440px] lg:h-[275px] mb-12"
+                  src={alchemy}
+                  alt=""
+                />
+                <div className="absolute bottom-full left-[10%] transform -translate-x-1/2 mb-2 hidden group-hover:block bg-black text-white text-xs rounded py-1 px-2">
+                  Alchemy EVM Chain Certification
+                </div>
+            </div>
           </motion.div>
          {/* <motion.div
             variants={fadeIn("left", 0.5)}
