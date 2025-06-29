@@ -155,7 +155,7 @@ const Work = () => {
                 <a href="https://multisig-wallets.vercel.app/">Live site</a>
               </button>
             </div>
-            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl lg:mt-[90px]">
+            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl lg:mt-[95px]">
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               <img
                 className="group-hover:scale-125 transition-all duration-500"
@@ -163,7 +163,7 @@ const Work = () => {
                 alt=""
               />
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">Yield Farminig Lottery</span>
+                <span className="text-gradient">No Loss Yield Farminig Lottery</span>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
                 <span className="text-3xl text-white">NoLo Lotto</span>
