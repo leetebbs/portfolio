@@ -157,7 +157,7 @@ const Acheivements = () => {
             {/* <button className="btn btn-sm">See my work</button> */}
             {/* </Link>
             <Outlet /> */}
-            <div className="relative group">
+            <div className="relative group lg:mb-[400px]">
                   <img
                   className="group-hover:scale-125 transition-all duration-500 width-[250px] h-[150px] lg:w-[440px] lg:h-[275px] mb-12"
                   src={alchemy}
